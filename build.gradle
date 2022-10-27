@@ -1,9 +1,9 @@
-buildScan {
-    tag 'bazel-build-engineer'
-}
-
 plugins {
     id 'java'
+}
+
+buildScan {
+    tag 'bazel-build-engineer'
 }
 
 repositories {
